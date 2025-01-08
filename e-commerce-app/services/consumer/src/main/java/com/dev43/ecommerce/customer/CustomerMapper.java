@@ -9,7 +9,7 @@ public class CustomerMapper {
         if (request==null)
             return null;
         return Customer.builder()
-                .id(request.id())       // record - No need to use of request.getId();
+                .id(request.id())       // CustomerRequest(record) - No need to use of request.getId();
                 .firstName(request.firstName())
                 .lastName(request.lastName())
                 .email(request.email())
@@ -19,7 +19,7 @@ public class CustomerMapper {
 
     public CustomerResponse fromCustomer(Customer customer) {
         return new CustomerResponse(
-                customer.getId(),
+                customer.getId(),       // Customer(class) - Need to use customer.getId();
                 customer.getFirstName(),
                 customer.getLastName(),
                 customer.getEmail(),
