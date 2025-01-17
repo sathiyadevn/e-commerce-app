@@ -1,0 +1,2 @@
+ALTER TABLE category ALTER COLUMN id SET DEFAULT NEXTVAL('category_seq');
+ALTER TABLE product ALTER COLUMN id SET DEFAULT NEXTVAL('product_seq');
