@@ -1,4 +1,4 @@
-package com.dev43.ecommerce;
+package com.dev43.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

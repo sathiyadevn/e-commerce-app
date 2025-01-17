@@ -1,6 +1,6 @@
-package com.dev43.ecommerce.customer;
+package com.dev43.customer.customer;
 
-import com.dev43.ecommerce.exception.CustomerNotFoundException;
+import com.dev43.customer.exception.CustomerNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang.StringUtils;

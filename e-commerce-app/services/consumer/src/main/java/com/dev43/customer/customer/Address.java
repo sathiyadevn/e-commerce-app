@@ -1,4 +1,4 @@
-package com.dev43.ecommerce.customer;
+package com.dev43.customer.customer;
 
 import lombok.*;
 import org.springframework.validation.annotation.Validated;

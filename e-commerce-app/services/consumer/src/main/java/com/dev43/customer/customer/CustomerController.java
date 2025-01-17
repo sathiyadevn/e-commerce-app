@@ -1,4 +1,4 @@
-package com.dev43.ecommerce.customer;
+package com.dev43.customer.customer;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
