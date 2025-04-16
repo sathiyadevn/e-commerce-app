@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dev43</groupId>
-	<artifactId>consumer</artifactId>
+	<artifactId>customer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>consumer</name>
-	<description>consumer</description>
+	<name>customer</name>
+	<description>customer</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -55,7 +55,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<optional>true</optional>
+<!--			<optional>true</optional>-->
 			<version>1.18.36</version>
 		</dependency>
 		<dependency>

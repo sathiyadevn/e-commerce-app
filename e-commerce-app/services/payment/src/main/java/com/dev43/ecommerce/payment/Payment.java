@@ -1,10 +1,7 @@
 package com.dev43.ecommerce.payment;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -16,6 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Builder
 @Getter
+@Setter
 @Entity
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "payment")
@@ -32,8 +30,9 @@ public class Payment {
     @CreatedDate    //
     @Column(updatable = false, nullable = false)
     private LocalDateTime createdDate;
+
     @LastModifiedDate   //
-    @Column(insertable = false, nullable = false)
+//    @Column(insertable = false)
     private LocalDateTime lastModifiedAt;
 
 
